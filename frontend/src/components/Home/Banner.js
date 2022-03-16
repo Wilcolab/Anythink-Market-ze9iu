@@ -3,9 +3,9 @@ import logo from "../../imgs/logo.png";
 
 const Banner = () => {
   return (
-    <div className="banner text-white">
+    <div className="banner text-white" style={{ width: "100%" }}>
       <div className="container p-4 text-center">
-        <img src={logo} alt="banner" style={{width: "100%"}}  />
+        <img src={logo} alt="banner"  style={{ width: "80%" }} />
         <h2>A place to get the cool stuff.</h2>
       </div>
     </div>
