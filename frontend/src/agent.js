@@ -2,8 +2,7 @@ import superagentPromise from "superagent-promise";
 import _superagent from "superagent";
 
 const superagent = superagentPromise(_superagent, global.Promise);
-
-const API_ROOT = process.env.REACT_APP_BACKEND_URL
+const API_ROOT =  process.env.REACT_APP_BACKEND_URL
   // process.env.NODE_ENV !== "production"
   //   ? "http://localhost:3000/api"
   //   : "https://api.anythink.market/api";
