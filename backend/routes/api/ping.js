@@ -8,7 +8,6 @@ router.get("/",
   asyncHandler(async (req, res) => {
 
     try {
-      console.log('pingged')
       const result = await sendEvent('ping')
       return res.json(result);
     } catch (e) {
